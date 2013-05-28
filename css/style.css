@@ -1,23 +1,29 @@
 body {
 	background-repeat: no-repeat;
-	background-size: 100%; 
+	background-length: 100% 100%; 
 	background-image:url('http://www.pptbackgrounds.net/uploads/dark-blue-background-backgrounds-wallpapers.jpg');
 }
 div {
 	margin: 0 auto;
-	border: 1px solid black;
+	border: 1px dashed black;
 	border-radius: 20px;
 	padding: 20px;
 	height: auto;
-	color: #FFB$00;
+	color: white;
+	font-family: 'Gilda Display', serif;
+	text-shadow: 3px 3px 2px rgba(118, 150, 150, 1);
+}
+
+img {
+	height: 300px;
 }
 
 #nav {
 	text-align: center;
+	border: 2px solid black;
 }
 
 #nav li {
-	font-family: Garamond bold;
 	font-size: 25px;
 	display: inline;
 	list-style: none;
@@ -25,15 +31,18 @@ div {
 	height: 100px;
 }
 
-#main {
+#container {
 	height: auto;
+	width: 800px;
 }
 
-#main div {
+#container div {
 	display: inline-block;
 	vertical-align: top;
+	font-size: 15px;
 }
 
 #footer {
 	clear:both;
+	text-align: center;
 }
