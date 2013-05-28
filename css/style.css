@@ -1,8 +1,10 @@
 body {
-	background-color: #03899C;
+	background-image: url(http://www.photoeverywhere.co.uk/tropical_escape/slides/tropical_beach_jpg_orig.htm);
+
 }
 div {
 	background-color: #36BBCE;
+	border: 1px solid black;
 }
 
 .header {
