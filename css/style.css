@@ -1,29 +1,21 @@
 body {
-	background-image: url('http://www.photoeverywhere.co.uk/tropical_escape/slides/tropical_beach_jpg_orig.htm');
-
+	background-color: black;
 }
 div {
 	margin: 0 auto;
 	background-color: #36BBCE;
 	border: 1px solid black;
 	border-radius: 20px;
-	padding: 20px;
-	clear: all;
+	padding: 20px; 
 }
 
 #nav {
-	width: 400px;
+	text-align: center;
+}
+
+#nav li {
 	height: 100px;
-}
-
-#main {
-	width: 600px;
-	height: 600px;
-}
-.header {
-	background-color: #FF9C40;
-}
-
-.footer {
-	background-color: #FF7A00;
+	display: inline;
+	list-style: none;
+	padding: 30px;
 }
