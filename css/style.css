@@ -1,21 +1,17 @@
 body {
 	background-repeat: no-repeat;
-	background-length: 100% 100%; 
+	background-size: cover; 
 	background-image:url('http://www.pptbackgrounds.net/uploads/dark-blue-background-backgrounds-wallpapers.jpg');
 }
+
 div {
-	margin: 0 auto;
 	border: 1px dashed black;
 	border-radius: 20px;
 	padding: 20px;
 	height: auto;
 	color: white;
-	font-family: 'Gilda Display', serif;
+	font-family: 'Just Me Again Down Here', cursive;
 	text-shadow: 3px 3px 2px rgba(118, 150, 150, 1);
-}
-
-img {
-	height: 300px;
 }
 
 #nav {
@@ -32,14 +28,35 @@ img {
 }
 
 #container {
-	height: auto;
-	width: 800px;
+	height: 450px;
+	width: 600px;
+	margin: auto;
 }
 
 #container div {
-	display: inline-block;
 	vertical-align: top;
 	font-size: 15px;
+}
+
+#profile {
+	width:200px;
+	height: 400px;
+	margin: 0;
+	float: left;
+}
+#profile .photo {
+	background:url('https://si0.twimg.com/profile_images/1542903596/Screen_shot_2011-09-14_at_12.04.23_PM.png');
+	background-position:-50px -50px;
+	height:200px;
+	width:150px;
+	display:block;
+}
+
+#reasons {
+	width:300px;
+	height: 400px;
+	margin:0;
+	float: left;
 }
 
 #footer {
