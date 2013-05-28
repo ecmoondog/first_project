@@ -6,7 +6,8 @@ div {
 	background-color: #36BBCE;
 	border: 1px solid black;
 	border-radius: 20px;
-	padding: 20px; 
+	padding: 20px;
+	height: auto;
 }
 
 #nav {
@@ -14,8 +15,23 @@ div {
 }
 
 #nav li {
-	height: 100px;
+	font-family: Garamond bold;
+	font-size: 25px;
 	display: inline;
 	list-style: none;
 	padding: 30px;
+	height: 100px;
+}
+
+#main {
+	height: auto;
+}
+
+#main div {
+	display: inline-block;
+	vertical-align: top;	
+}
+
+#footer {
+	clear:both;
 }
