@@ -32,7 +32,7 @@ a:hover {
 }
 
 #nav li {
-	font-size: 25px;
+	font-size: 20px;
 	display: inline;
 	list-style: none;
 	padding: 30px;
@@ -41,7 +41,7 @@ a:hover {
 
 #container {
 	height: 450px;
-	width: 700px;
+	width: 850px;
 	margin: auto;
 }
 
@@ -54,7 +54,8 @@ a:hover {
 
 #profile {
 	width: 250px;
-	margin-left: 50px;
+	margin-left: auto;
+	padding-left: 100px;
 	float: left;
 }
 
@@ -68,12 +69,16 @@ a:hover {
 }
 
 #reasons {
-	width:300px;
-	margin:0;
+	width: 400px;
+	margin: 0;
 	float: left;
 	text-align: left;
+
 }
 
+#reasons li {
+	padding: 5px 0;
+}
 #footer {
 	clear: both;
 }
