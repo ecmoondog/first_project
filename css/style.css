@@ -18,6 +18,15 @@ div {
 	text-shadow: 2px 2px 2px rgba(118, 150, 211, 1);
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #FFA040;
+}
+
 #nav,#footer {
 	border: 2px solid black;
 }
