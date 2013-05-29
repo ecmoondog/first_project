@@ -81,11 +81,15 @@ a:hover {
 
 #footer {
 	clear: both;
+	width: 100%;
 }
 
 #icons {
-	margin-left: auto;
+	width: 850px;
+	padding-left: 34%;
 	padding-bottom: 50px;
+	border: 1px dashed black;
+	margin-left: 0;
 }
 
 .social {
