@@ -80,23 +80,67 @@ a:hover {
 	padding: 5px 0;
 }
 
+#footer {
+	clear: both;
+}
+
 .social img {
 	height: 40px;
 	width: 40px;
 	border-radius: 10px;
+	float: left;
 }
 
-#fb {	
+#facebook {	
 	background:url('../images/sprite/facebook.png');
 	background-position: -6px -7px;
 }
 
-#fb:hover {
+#facebook:hover {
 	background-position: -58px -7px;
 }
 
+#twitter {	
+	background:url('../images/sprite/twitter.png');
+	background-position: -6px -7px;
+}
 
+#twitter:hover {
+	background-position: -58px -7px;
+}
 
-#footer {
-	clear: both;
+#linkedin {	
+	background:url('../images/sprite/linkedin.png');
+	background-position: -6px -7px;
+}
+
+#linkedin:hover {
+	background-position: -58px -7px;
+}
+
+#skype {	
+	background:url('../images/sprite/skype.png');
+	background-position: -6px -7px;
+}
+
+#skype:hover {
+	background-position: -58px -7px;
+}
+
+#google_plus {	
+	background:url('../images/sprite/google_plus.png');
+	background-position: -6px -7px;
+}
+
+#google_plus:hover {
+	background-position: -58px -7px;
+}
+
+#email {	
+	background:url('../images/sprite/email.png');
+	background-position: -6px -7px;
+}
+
+#email:hover {
+	background-position: -58px -7px;
 }
