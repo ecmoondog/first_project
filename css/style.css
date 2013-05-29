@@ -60,7 +60,7 @@ a:hover {
 
 #profile .photo {
 	background:url('../images/profile.png');
-	background-position:-55px -65px;
+	background-position:-60px -5px;
 	height:200px;
 	width:150px;
 	display: block;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 #fb {	
-	background:url('../images/sprite_1/facebook.png');
+	background:url('../images/sprite/facebook.png');
 	background-position: -6px -7px;
 	border-radius: 10px;
 }
