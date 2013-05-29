@@ -7,7 +7,6 @@ body {
 	background-image:url('../images/dark_blue.jpg');
 	text-align: center;
 }
-
 div {
 	border-radius: 20px;
 	padding: 20px;
@@ -83,12 +82,16 @@ a:hover {
 #footer {
 	clear: both;
 }
-
+.social {
+	padding:0;
+}
 .social img {
+	display:block;
 	height: 40px;
 	width: 40px;
 	border-radius: 10px;
 	float: left;
+	margin: 0 5px;
 }
 
 #facebook {	
