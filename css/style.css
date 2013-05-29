@@ -1,11 +1,10 @@
-html,body {
-	height: 100%;
-}
-
 body {
-	background-repeat: no-repeat;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background: no-repeat center center fixed;
 	background-size: cover; 
-	background-image:url('http://www.pptbackgrounds.net/uploads/dark-blue-background-backgrounds-wallpapers.jpg');
+	background-image:url('../images/dark_blue.jpg');
 	text-align: center;
 }
 
@@ -40,7 +39,7 @@ a:hover {
 }
 
 #container {
-	height: 450px;
+	height: 350px;
 	width: 850px;
 	margin: auto;
 }
@@ -48,7 +47,7 @@ a:hover {
 #container div {
 	vertical-align: top;
 	font-size: 15px;
-	height: 400px;
+	height: 300px;
 	list-style: none;
 }
 
@@ -60,7 +59,7 @@ a:hover {
 }
 
 #profile .photo {
-	background:url('https://si0.twimg.com/profile_images/1542903596/Screen_shot_2011-09-14_at_12.04.23_PM.png');
+	background:url('../images/profile.png');
 	background-position:-55px -65px;
 	height:200px;
 	width:150px;
@@ -73,12 +72,33 @@ a:hover {
 	margin: 0;
 	float: left;
 	text-align: left;
+	overflow: hidden;
 
 }
 
 #reasons li {
 	padding: 5px 0;
 }
+
+.social {
+	height: 40px;
+	width: 40px;
+}
+
+#fb {	
+	background:url('../images/sprite_1/facebook.png');
+	background-position: -6px -7px;
+	border-radius: 10px;
+}
+
+#fb:hover {
+	background-position: -58px -7px;
+}
+
+#faceb {
+	border-radius: 20px;
+}
+
 #footer {
 	clear: both;
 }
