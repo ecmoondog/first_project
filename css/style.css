@@ -82,6 +82,12 @@ a:hover {
 #footer {
 	clear: both;
 }
+
+#icons {
+	margin-left: auto;
+	padding-bottom: 50px;
+}
+
 .social {
 	padding:0;
 }
@@ -114,29 +120,29 @@ a:hover {
 
 #linkedin {	
 	background:url('../images/sprite/linkedin.png');
-	background-position: -6px -7px;
+	background-position: -4px -7px;
 }
 
 #linkedin:hover {
-	background-position: -58px -7px;
+	background-position: -56px -7px;
 }
 
 #skype {	
 	background:url('../images/sprite/skype.png');
-	background-position: -6px -7px;
+	background-position: -6px -5px;
 }
 
 #skype:hover {
-	background-position: -58px -7px;
+	background-position: -58px -5px;
 }
 
 #google_plus {	
 	background:url('../images/sprite/google_plus.png');
-	background-position: -6px -7px;
+	background-position: -6px -8px;
 }
 
 #google_plus:hover {
-	background-position: -58px -7px;
+	background-position: -58px -8px;
 }
 
 #email {	
