@@ -58,7 +58,7 @@ a:hover {
 	float: left;
 }
 
-#profile .photo {
+#profile #photo {
 	background:url('../images/profile.png');
 	background-position:-60px -5px;
 	height:200px;
@@ -80,24 +80,22 @@ a:hover {
 	padding: 5px 0;
 }
 
-.social {
+.social img {
 	height: 40px;
 	width: 40px;
+	border-radius: 10px;
 }
 
 #fb {	
 	background:url('../images/sprite/facebook.png');
 	background-position: -6px -7px;
-	border-radius: 10px;
 }
 
 #fb:hover {
 	background-position: -58px -7px;
 }
 
-#faceb {
-	border-radius: 20px;
-}
+
 
 #footer {
 	clear: both;
