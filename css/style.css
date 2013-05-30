@@ -8,7 +8,6 @@ body {
 	text-align: center;
 }
 div {
-	border: 1px dashed black;
 	border-radius: 20px;
 	padding: 20px;
 	height: auto;
@@ -146,4 +145,11 @@ a:hover {
 
 #email:hover {
 	background-position: -58px -7px;
+}
+
+#social_holder {
+	width: 277px;
+	margin: auto;
+	height: 40px;
+	padding: 0px;
 }
