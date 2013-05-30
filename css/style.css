@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	background: no-repeat center center fixed;
 	background-size: cover; 
-	background-image:url('../images/dark_blue.jpg');
+	background-image:url('../images/urban_camp.jpg');
 	text-align: center;
 }
 div {
@@ -58,7 +58,7 @@ a:hover {
 }
 
 #profile #photo {
-	background:url('../images/profile.png');
+	background:url('../images/dark_blue.jpg');
 	background-position:-60px -5px;
 	height:200px;
 	width:150px;
