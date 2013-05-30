@@ -8,6 +8,7 @@ body {
 	text-align: center;
 }
 div {
+	border: 1px dashed black;
 	border-radius: 20px;
 	padding: 20px;
 	height: auto;
@@ -84,24 +85,13 @@ a:hover {
 	width: 100%;
 }
 
-#icons {
-	width: 850px;
-	padding-left: 34%;
-	padding-bottom: 50px;
-	border: 1px dashed black;
-	margin-left: 0;
-}
-
 .social {
-	padding:0;
-}
-.social img {
-	display:block;
+	display: inline-block;
 	height: 40px;
 	width: 40px;
 	border-radius: 10px;
 	float: left;
-	margin: 0 5px;
+	margin: 0 3px;
 }
 
 #facebook {	
